@@ -1,0 +1,2 @@
+# Awesome-Standard-Data-Model
+
