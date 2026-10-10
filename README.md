@@ -1,233 +1,133 @@
-# Awesome-Standard-Data-Model
+# Awesome Standard Data Model 📊
 
-## Top Standard Data Model Ecosystem
+[![Banner](assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Standard-Data-Model)
 
+## 🌐 Top Standard Data Model Ecosystem & Interoperability Standards
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+**Curated List of Commercial SaaS Platforms, Enterprise Ontologies & Open-Source Data Standards** 🚀
 
-*Focused on Industry Data Standards, Ontologies & Self-Hosted Semantic Models*
+*Focused on Industry Data Standards, Semantic Web Ontologies, Unified Master Data Schemas & Self-Hosted Models* 💡
 
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial and open standard data models** and **open-source projects** that define shared vocabularies, entity relationships, and data structures for interoperability across industries — from financial messaging and healthcare to retail, telecom, and the web.
-
-
-
-**Examples** include SAP One Domain Model, Microsoft Common Data Model, Schema.org, HL7 FHIR, TM Forum Open API, OData, CDISC, ISO 20022, and EDMC FIBO (the category leaders).
-
-
-
-**Open-source emphasis**: Standard data models are one of the strongest open-source domains. **Schema.org** provides the vocabulary foundation for the web with 3,840 classes and 49,916 properties . **EDMC FIBO** defines financial industry business ontology with 642 GitHub stars . **HL7 FHIR** delivers the global standard for healthcare data exchange with open-source implementations in Python, Java, Dart, PHP, and more . **TM Forum Open API** provides standardized telecom APIs with a governance process for multi-team collaboration . **OData** is an ISO/IEC approved OASIS standard with rich open-source libraries for .NET, Java, Python, and JavaScript . **OHDSI OMOP Common Data Model** powers observational health research with 881 GitHub stars . **Smart Data Models** program covers energy, water, waste, mobility, and more with 18,000+ standardized terms . This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[SAP One Domain Model](https://www.sap.com/)**  
-
-  **SAP's unified data model for the Intelligent Enterprise** — provides common semantics for business objects across SAP applications . **Enables out-of-the-box integrations between SAP cloud applications with one mapping per application, reducing total cost of ownership** . **Defined in Core Data Services (CDS) format for machine-readable definitions** . **Best for SAP-centric organizations wanting harmonized master data** .
-
-
-
-- **[Microsoft Common Data Model](https://learn.microsoft.com/en-us/common-data-model/)**  
-
-  **Microsoft's shared data model for business applications** — defines standard entities and relationships for Dynamics 365, Power Platform, and Azure . **Supports custom entities, relationships, and business rules** . **Best for Microsoft ecosystem integration** .
-
-
-
-- **[Schema.org](https://schema.org/)**  
-
-  **The collaborative vocabulary for structured data on the web** — 3,840 classes, 49,916 properties, and 2,593 vocabularies as of 2020 . **Provides a shared vocabulary for search engines, websites, and applications** . **Best for web data interoperability** .
-
-
-
-- **[HL7 FHIR](https://www.hl7.org/fhir/)**  
-
-  **Fast Healthcare Interoperability Resources** — the global standard for exchanging healthcare information electronically . **Supports R4, R5, STU3, and DSTU2 with JSON and XML formats** . **Best for healthcare data exchange** .
-
-
-
-- **[TM Forum Open API](https://www.tmforum.org/)**  
-
-  **Telecom industry standard APIs** — component suite covering customer, product, service, and resource domains . **API governance process permits multiple collaboration teams to capture API requirements in parallel** . **Best for telecom BSS/OSS interoperability** .
-
-
-
-- **[OData](https://www.odata.org/)**  
-
-  **ISO/IEC approved, OASIS standard for building and consuming RESTful APIs** . **Machine-readable metadata enables generic client proxies and tools** . **Domain-agnostic with platform-agnostic support for .NET, Java, PHP, Python, and REST** . **Best for RESTful API standardization** .
-
-
-
-- **[CDISC](https://www.cdisc.org/)**  
-
-  **Clinical Data Interchange Standards Consortium** — global standards for clinical research data . **Best for clinical trial data standardization** .
-
-
-
-- **[ISO 20022](https://www.iso20022.org/)**  
-
-  **Global standard for financial messaging** — syntax-independent modelling methodology for financial business areas, transactions, and message flows . **Central dictionary of commonly agreed business items with data dictionary and business process catalogue** . **Best for financial messaging interoperability** .
-
-
-
-- **[EDMC FIBO](https://spec.edmcouncil.org/fibo/)**  
-
-  **Financial Industry Business Ontology** — defines the sets of things of interest in financial business applications and their relationships . **Gives meaning to any data describing the business of finance** . **MIT licensed with 642 GitHub stars** . **Best for financial data semantics** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Financial Industry Standards
-
-
-
-- **[EDMC FIBO](https://github.com/edmcouncil/fibo)**  
-
-  **The Financial Industry Business Ontology (FIBO)**, MIT licensed with **642 GitHub stars** . **Defines the sets of things that are of interest in financial business applications and the ways those things can relate to one another** . **Gives meaning to any data (spreadsheets, relational databases, XML documents) that describe the business of finance** . **Actively maintained with recent pull requests for ISO MIC codes updates and ACTUS mapping vocabulary corrections** . **Best for financial industry semantic modeling** .
-
-
-
-- **[modelith-dbt](https://pypi.org/project/modelith-dbt/)**  
-
-  **Cross-repo model catalog for dbt projects with FIBO integration**, open-source . **Git-native manifest backend with no database or server required** — one human-readable YAML entry per model . **Ships with a small mock FIBO server for offline development** . **Browsable catalog with searchable/filterable model list, ontology-layer chips, and commit-pinned views** . **Supports S3, DataHub, and other backends via adapter interface** . **Best for managing multiple FIBO-aligned data models** .
-
-
-
-### Healthcare Standards
-
-
-
-- **[OHDSI OMOP Common Data Model](https://github.com/OHDSI/CommonDataModel)**  
-
-  **Observational Medical Outcomes Partnership Common Data Model**, open-source with **881 GitHub stars** . **Standardizes observational health data for research** — enables consistent analysis across disparate databases . **Ecosystem includes ATLAS (analysis tool), Achilles (data characterization), Usagi (mapping), and WebAPI** . **ETL tools for CMS, MIMIC, and Synthea datasets** . **Best for observational health research** .
-
-
-
-- **[HL7 FHIR Open Source Implementations](https://confluence.hl7.org/pages/viewpage.action?pageId=307302805)**  
-
-  **Comprehensive collection of open-source FHIR implementations** across languages . **client-py** — flexible Python client supporting SMART on FHIR . **IBM FHIR Server** — Java server and libraries for R4 with JSON/XML and FHIRPath 2.0 . **Android FHIR SDK** — Kotlin library for offline-capable mobile healthcare apps . **Medplum** — FHIR-native EHR for modern app development . **Blaze** — high-performance Clojure FHIR server with CQL evaluation . **Best for healthcare interoperability** .
-
-
-
-### Web & Cross-Domain Standards
-
-
-
-- **[Schema.org](https://github.com/schemaorg/schemaorg)**  
-
-  **The collaborative vocabulary for structured data on the web**, open-source . **3,840 classes and 49,916 properties** . **Maps to FOAF and other LOV vocabularies** — 135 classes mapped in semantic alignment experiment . **Version 6 published January 2020** . **Best for web data standardization** .
-
-
-
-- **[OData Libraries](https://github.com/OData/)**  
-
-  **Open Data Protocol libraries and tools**, open-source . **Restier** — main library for .NET Framework . **Apache Olingo** — Java platform for building OData services . **odata-v2-adapter** — OData V2 adapter for SAP CDS . **odata-sequelize** — transforms OData queries to Sequelize . **odata-v4-typeorm** — OData to TypeORM query compiler . **Best for RESTful API development** .
-
-
-
-- **[Smart Data Models](https://github.com/smart-data-models)**  
-
-  **Open-licensed data models for smart cities and IoT**, open-source . **Covers energy, water, waste, mobility, agrifood, tourism, and more** . **18,000+ terms mapped with 100+ collaborators across 800 data models** . **Integrates 18 ontologies/vocabularies including SAREF core, schema.org, and IUDX** . **Configuration file enables precedence-based mapping across ontologies** . **Best for smart city and IoT data standardization** .
-
-
-
-### Telecom Standards
-
-
-
-- **[TM Forum Open API](https://github.com/tmforum-rand)**  
-
-  **Telecom industry Open API assets**, open-source . **GB1023 Data Governance Guide Book v2.0.0** . **GB1024 Data Governance API Engine — Executive Summary v1.0.0** . **GB1025 Data Governance Maturity Model v1.0.0** . **TR261 Data Governance Functions and Implementation R16.0.1** . **API governance process drives technical inputs (yaml Rules files) for API tooling** . **Best for telecom data governance** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **italia/daf-ontologie-vocabolari-controllati** — Italian government ontologies and controlled vocabularies, 82 GitHub stars, Python .
-
-- **Azure Digital Twins Ontology Browser** — Search, browse, and visualize open-source digital twin ontologies on GitHub, TypeScript .
-
-- **MHCLG Digital Planning Data Models** — Standardized data definitions for enterprise data architecture, 17,000+ definitions .
-
-- **OHDSI Broadsea** — Docker container deploying core OHDSI technology stack .
-
-- **FHIR Protocol Buffers** — Protocol buffer definitions for FHIR, 828 GitHub stars .
-
-- **Clinical Quality Language (CQL)** — HL7 specification for expressing clinical knowledge .
-
-
-
-**Frameworks for building custom standard data model solutions**: Combine **Schema.org** for web data vocabularies and search engine visibility . Use **EDMC FIBO** for financial industry semantic modeling with ontology-driven data integration . Deploy **HL7 FHIR** for healthcare data exchange with open-source implementations in any language . Integrate **OHDSI OMOP CDM** for observational health research data standardization . Choose **OData** for RESTful API standardization with ISO/IEC approval . Use **Smart Data Models** for smart city and IoT data models with cross-ontology mapping . Integrate **TM Forum Open API** for telecom BSS/OSS interoperability . Note that true enterprise data models with vendor-supported governance, industry-wide adoption, and compliance certifications (SAP One Domain Model, Microsoft CDM) remain primarily commercial territory; open-source standards provide strong vocabularies, ontologies, and data model foundations that require integration for complete enterprise interoperability.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Standard data models define shared semantics for interoperability and may involve regulatory compliance obligations. Self-hosted implementations require proper governance, version management, and alignment with industry standards.
-
-- **Adoption varies significantly** — Schema.org is universal for web data, HL7 FHIR is mandated in many healthcare jurisdictions, while other standards may be emerging or industry-specific. Verify industry adoption before committing .
-
-- **License considerations**: FIBO uses MIT , Schema.org is open-source , OData is OASIS/ISO standard , OHDSI OMOP CDM is open-source , and Smart Data Models is open-licensed . Verify licensing against your use case before committing.
-
-- **Governance is critical** — standard data models require ongoing maintenance and version management. TM Forum's API governance process is a reference for managing multi-team contributions .
-
-- The open-source ecosystem provides strong vocabularies, ontologies, and data model foundations, but **vendor-supported governance, industry-wide adoption, and compliance certifications** remain primarily commercial offerings.
-
-
+**Last updated: October 2026** 📅
 
 ---
 
+This repository tracks notable **commercial and open standard data models**, enterprise vocabularies, and **open-source GitHub projects** that define shared entities, relationships, and REST/GraphQL/gRPC data structures for interoperability across industries — from financial messaging and healthcare to retail, telecom, and the web.
 
+**Key Ecosystem Categories**:
+- 🏦 **Financial & Banking**: ISO 20022, EDMC FIBO, ACTUS
+- 🏥 **Healthcare & Life Sciences**: HL7 FHIR, OHDSI OMOP CDM, CDISC
+- 🏢 **Enterprise SaaS Master Data**: SAP One Domain Model, Microsoft Common Data Model
+- 🌐 **Web & Cross-Domain Schemas**: Schema.org, OData, Smart Data Models (FIWARE)
+- 📡 **Telecom & IoT**: TM Forum Open API, SAREF
 
-**Made for data architects, semantic engineers, and organizations seeking standard data model sovereignty.**
+---
 
-Let's make standard data models more open, transparent, and interoperable.
+## 📑 Table of Contents
+
+- [💼 SaaS & Enterprise Hosted Platforms](#-saas--enterprise-hosted-platforms)
+- [🔓 Open-Source GitHub Data Model Projects](#-open-source-github-data-model-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+- [☕ Support](#-support)
+
+---
+
+## 💼 SaaS & Enterprise Hosted Platforms
+
+> 💡 **Market Size & Industry Dynamics**: The global enterprise data modeling, data governance, and master data management (MDM) software market is estimated at **$14.2 Billion** and is projected to reach **$38.5 Billion by 2030**. The sector is **highly concentrated** among massive technology conglomerates (such as Microsoft and SAP) and established standards bodies (ISO, HL7, TM Forum), where ecosystem lock-in and regulatory compliance mandates drive standard adoption.
+
+Below is a curated comparison of major commercial SaaS offerings and enterprise standards sorted by company size (Revenue / Market Valuation in descending order):
+
+| Rank | SaaS / Platform Name 🏢 | Market Size / Company Scale 📈 | Specific Starting Pricing Tier 💰 | Free Tier / Free Trial Limits 🎁 | Primary Industry & Description 📝 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | **[Microsoft Common Data Model](https://learn.microsoft.com/en-us/common-data-model/)** | **$3.1 Trillion** market cap | $20/user/month (Power Apps Per User Plan) | 30-day Free Trial (up to 10,000 Power Apps runs/month) | **Enterprise / Cross-Domain**: Shared data model defining standard entities & relationships across Power Platform, Dynamics 365, and Azure. |
+| **2** | **[SAP One Domain Model](https://www.sap.com/)** | **$260 Billion** market cap | $1,740/month (SAP Integration Suite Standard Edition) | 90-day SAP Business Technology Platform (BTP) Free Trial (1,000 capacity units) | **Enterprise ERP & Master Data**: Unified data model for the Intelligent Enterprise delivering harmonized CDS business object semantics. |
+| **3** | **[ISO 20022](https://www.iso20022.org/)** | Global ISO Consortium (NPO) | Standard specs free; repository access packages from $1,200/year | Free access to financial dictionary, message definitions, & XML schemas | **Financial Messaging**: Syntax-independent global modeling methodology for banking, cross-border payments, & securities transactions. |
+| **4** | **[TM Forum Open API](https://www.tmforum.org/)** | Global Telecom Alliance (800+ members) | $15,000/year corporate membership | Free access to basic Open API specs (90-day evaluation license for non-members) | **Telecom BSS/OSS**: Standardized RESTful APIs and component suite covering customer, product, service, and resource management. |
+| **5** | **[CDISC](https://www.cdisc.org/)** | Global Life Sciences Consortium | $5,500/year organizational membership | Free standard access after registering a free account (no time limit) | **Clinical Research**: Global regulatory standards (SDTM, ADaM) for clinical trial data submission to FDA/PMDA. |
+| **6** | **[HL7 FHIR](https://www.hl7.org/fhir/)** | Global Healthcare Standards Org | Free standard; HL7 organizational membership starts at $2,500/year | Core FHIR specification & XML/JSON schemas are 100% Free Forever | **Healthcare Interoperability**: Global standard for exchanging electronic health records, diagnostic data, and clinical resources. |
+| **7** | **[Schema.org](https://schema.org/)** | Founded by Google/Microsoft/Yahoo/Yandex | $0 (Open Web Standard) | 100% Free Forever (Community-maintained open vocabulary) | **Web & Structured Data**: Shared vocabulary of 3,840+ classes and 49,916+ properties for search engines and structured web data. |
+| **8** | **[OData](https://www.odata.org/)** | OASIS / ISO/IEC Standard | $0 (Open Standard) | 100% Free Forever (Open-source OASIS standard specification) | **RESTful API Standardization**: ISO/IEC approved specification for building and consuming queryable RESTful APIs. |
+| **9** | **[EDMC FIBO](https://spec.edmcouncil.org/fibo/)** | Enterprise Data Management Council | $0 (MIT License) | 100% Free Forever (Open OWL ontologies on GitHub) | **Financial Industry Ontology**: Comprehensive business ontology defining financial instruments, contracts, and market structures. |
+
+---
+
+## 🔓 Open-Source GitHub Data Model Projects
+
+Below is a curated list of top open-source standard data models, ontologies, and implementation SDKs, sorted by **GitHub Star Count** (descending):
+
+| Open-Source Project 📦 | Star Count ⭐️ | Primary Domain 🎯 | Key Features & Implementation Stack 🛠️ |
+| :--- | :--- | :--- | :--- |
+| **[Schema.org](https://github.com/schemaorg/schemaorg)** | [<img src="https://img.shields.io/github/stars/schemaorg/schemaorg?style=social&color=white" alt="Schema.org Stars"/>](https://github.com/schemaorg/schemaorg/stargazers) | Web & Schema Vocabularies 🌐 | **3,840 classes & 49,916 properties**. Foundation for web structured data, JSON-LD, microdata, & search engine indexing. |
+| **[OHDSI OMOP Common Data Model](https://github.com/OHDSI/CommonDataModel)** | [<img src="https://img.shields.io/github/stars/OHDSI/CommonDataModel?style=social&color=white" alt="OHDSI OMOP Stars"/>](https://github.com/OHDSI/CommonDataModel/stargazers) | Observational Healthcare 🏥 | Standardizes observational health data across disparate databases. Includes ATLAS analytics, Achilles, & Synthea ETL tools. |
+| **[FHIR Protocol Buffers](https://github.com/google/fhir)** | [<img src="https://img.shields.io/github/stars/google/fhir?style=social&color=white" alt="Google FHIR Proto Stars"/>](https://github.com/google/fhir/stargazers) | Healthcare & gRPC 💉 | Google's official protocol buffer representations and validation tools for HL7 FHIR resources in C++, Java, & Python. |
+| **[EDMC FIBO](https://github.com/edmcouncil/fibo)** | [<img src="https://img.shields.io/github/stars/edmcouncil/fibo?style=social&color=white" alt="FIBO Stars"/>](https://github.com/edmcouncil/fibo/stargazers) | Financial Industry Ontology 🏦 | Official RDF/OWL ontologies defining financial business concepts, legal entities, derivative contracts, and loans under MIT license. |
+| **[Smart Data Models](https://github.com/smart-data-models/data-models)** | [<img src="https://img.shields.io/github/stars/smart-data-models/data-models?style=social&color=white" alt="Smart Data Models Stars"/>](https://github.com/smart-data-models/data-models/stargazers) | Smart Cities & IoT 🌆 | FIWARE & TM Forum initiative covering energy, water, mobility, agrifood, and waste management with 18,000+ standardized terms. |
+| **[Medplum](https://github.com/medplum/medplum)** | [<img src="https://img.shields.io/github/stars/medplum/medplum?style=social&color=white" alt="Medplum Stars"/>](https://github.com/medplum/medplum/stargazers) | FHIR EHR & Developer Platform 🩺 | Developer-first, head-less FHIR platform providing React components, OAuth2/OIDC, and automated clinical workflows. |
+| **[Blaze FHIR Server](https://github.com/samply/blaze)** | [<img src="https://img.shields.io/github/stars/samply/blaze?style=social&color=white" alt="Blaze Stars"/>](https://github.com/samply/blaze/stargazers) | High-Performance FHIR Engine ⚡ | High-performance Clojure FHIR store with integrated CQL (Clinical Quality Language) engine and fast graph indexing. |
+| **[HAPI FHIR](https://github.com/hapifhir/hapi-fhir)** | [<img src="https://img.shields.io/github/stars/hapifhir/hapi-fhir?style=social&color=white" alt="HAPI FHIR Stars"/>](https://github.com/hapifhir/hapi-fhir/stargazers) | Java Healthcare Framework ☕ | Complete open-source Java implementation of the HL7 FHIR specification for building healthcare applications & servers. |
+| **[IBM FHIR Server](https://github.com/IBM/FHIR)** | [<img src="https://img.shields.io/github/stars/IBM/FHIR?style=social&color=white" alt="IBM FHIR Stars"/>](https://github.com/IBM/FHIR/stargazers) | Enterprise FHIR Engine 🏢 | Enterprise Java REST API server supporting FHIR R4, JSON/XML validation, search parameters, and transactional storage. |
+| **[FHIR Client Py](https://github.com/smart-on-fhir/client-py)** | [<img src="https://img.shields.io/github/stars/smart-on-fhir/client-py?style=social&color=white" alt="FHIR Client Py Stars"/>](https://github.com/smart-on-fhir/client-py/stargazers) | Python SMART on FHIR 🐍 | Flexible Python client supporting SMART on FHIR authorization, resource serialization, and REST interactions. |
+| **[Italian Government Ontologies](https://github.com/italia/daf-ontologie-vocabolari-controllati)** | [<img src="https://img.shields.io/github/stars/italia/daf-ontologie-vocabolari-controllati?style=social&color=white" alt="Gov Italia Stars"/>](https://github.com/italia/daf-ontologie-vocabolari-controllati/stargazers) | Public Administration & City 🇮🇹 | Core Italian public sector ontologies and controlled vocabularies for addresses, organizations, and public services. |
+| **[modelith-dbt](https://github.com/modelith-io/modelith-dbt)** | [<img src="https://img.shields.io/github/stars/modelith-io/modelith-dbt?style=social&color=white" alt="Modelith Stars"/>](https://github.com/modelith-io/modelith-dbt/stargazers) | dbt FIBO Model Catalog 📊 | Cross-repo model catalog for dbt projects with native FIBO ontology integration and mock local FIBO servers. |
+| **[TM Forum Open API Assets](https://github.com/tmforum-rand/GB1023-Data-Governance-Guide-Book)** | [<img src="https://img.shields.io/github/stars/tmforum-rand/GB1023-Data-Governance-Guide-Book?style=social&color=white" alt="TM Forum Stars"/>](https://github.com/tmforum-rand/GB1023-Data-Governance-Guide-Book/stargazers) | Telecom Data Governance 📡 | Official OpenAPI YAML specs, Data Governance Guide Books, and maturity models for telecom systems. |
+| **[OData Libraries (.NET)](https://github.com/OData/ODataSamples)** | [<img src="https://img.shields.io/github/stars/OData/ODataSamples?style=social&color=white" alt="OData Stars"/>](https://github.com/OData/ODataSamples/stargazers) | RESTful Query Protocols 🔌 | Official reference implementations, sample query parsers, and serializer libraries for OASIS OData standards. |
+
+---
+
+## 🛠️ Architectural Guidelines & Interoperability Best Practices
+
+When building modern data platforms, data mesh architectures, or domain-driven systems, adopting standard data models accelerates enterprise integration:
+
+1. **Web & E-Commerce Data**: Use **Schema.org** for rich JSON-LD snippets, SEO optimization, and web catalog definitions.
+2. **Financial Interoperability**: Combine **ISO 20022** for transactional messaging with **EDMC FIBO** for semantic entity modeling and fraud detection ontologies.
+3. **Healthcare Systems**: Mandate **HL7 FHIR** for clinical EHR data exchange and **OHDSI OMOP CDM** for observational medical research and clinical data warehousing.
+4. **Smart Cities & Utilities**: Deploy **Smart Data Models** (FIWARE/SAREF) for IoT sensor telemetry, energy management, and urban mobility.
+5. **RESTful Microservices**: Implement **OData** or **TM Forum Open APIs** to standardize query syntax, pagination, and payload structures across microservices.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help make this curated list the best resource for data architects and engineers:
+
+1. Fork this repository 🍴
+2. Create a feature branch (`git checkout -b feature/new-standard`) 🌿
+3. Add or update entries in `README.md` following the standard table structure 📝
+4. Provide factual pricing, open-source repository URLs, and star links 🔗
+5. Submit a Pull Request with a short explanation of your addition 📤
+
+Please read [Awesome List Guidelines](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) before submitting.
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated list** — entries are provided for educational and architectural evaluation purposes.
+- Commercial trademarks (SAP, Microsoft, ISO, HL7, TM Forum) belong to their respective corporate owners and standards bodies.
+- Always verify active pricing plans, compliance mandates, and open-source licenses (MIT, Apache 2.0, Creative Commons) before incorporating schemas into production applications.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Standard-Data-Model&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Standard-Data-Model&type=date&legend=top-left)
+
+---
+
+## ☕ Support & Community
+
+If you find this repository helpful, please consider supporting the project:
+
+- ⭐️ **Star the repository** to boost visibility for other data architects!
+- 🔀 **Fork and share** with your data engineering teams and colleagues!
+- 💬 **Join our community** on [Discord](https://discord.gg/jc4xtF58Ve) to discuss data models and ontologies!
+- 💖 **Sponsor the Maintainer**: Support ongoing open-source curation and maintenance via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+<p center><b>Made with ❤️ for data architects, semantic engineers, and open-data advocates worldwide.</b></p>
