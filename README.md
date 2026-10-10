@@ -58,9 +58,9 @@ Below is a curated comparison of major commercial SaaS offerings and enterprise 
 
 ## 🔓 Open-Source GitHub Data Model Projects
 
-Below is a curated list of top open-source standard data models, ontologies, and implementation SDKs, sorted by **GitHub Star Count** (descending):
+Below is a curated list of top open-source standard data models, ontologies, and implementation SDKs, sorted by **GitHub Stars_Count** (descending):
 
-| Open-Source Project 📦 | Star Count ⭐️ | Primary Domain 🎯 | Key Features & Implementation Stack 🛠️ |
+| Open-Source Project 📦 | Stars_Count ⭐️ | Primary Domain 🎯 | Key Features & Implementation Stack 🛠️ |
 | :--- | :--- | :--- | :--- |
 | **[Schema.org](https://github.com/schemaorg/schemaorg)** | [<img src="https://img.shields.io/github/stars/schemaorg/schemaorg?style=social&color=white" alt="Schema.org Stars"/>](https://github.com/schemaorg/schemaorg/stargazers) | Web & Schema Vocabularies 🌐 | **3,840 classes & 49,916 properties**. Foundation for web structured data, JSON-LD, microdata, & search engine indexing. |
 | **[OHDSI OMOP Common Data Model](https://github.com/OHDSI/CommonDataModel)** | [<img src="https://img.shields.io/github/stars/OHDSI/CommonDataModel?style=social&color=white" alt="OHDSI OMOP Stars"/>](https://github.com/OHDSI/CommonDataModel/stargazers) | Observational Healthcare 🏥 | Standardizes observational health data across disparate databases. Includes ATLAS analytics, Achilles, & Synthea ETL tools. |
